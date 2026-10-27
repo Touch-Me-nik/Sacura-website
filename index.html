@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Сакура — японский ресторан и гастрономический кластер в центре Москвы.">
+        <title>САКУРА. ДОМ САМУРАЯ</title>
+        <link rel="stylesheet" href="style.css?v=2">
+    </head>
+    <body>
+        <div class="preloader">
+            <h1>
+                <span>С</span>
+                <span>а</span>
+                <span>к</span>
+                <span>у</span>
+                <span>р</span>
+                <span>а</span>
+            </h1>
+        </div>
+
+        <header>
+            <a href="index.html" class="logo-link">
+                <div class="logo">Сакура</div>
+            </a>
+            <nav>
+                <a href="index.html" class="nav-logo-link">
+                <div class="nav-logo">Сакура</div>
+            </a>
+                <ul>
+                    <li><a href="#menu">МЕНЮ</a></li>
+                    <li><a href="#">МЕРОПРИЯТИЯ</a></li>
+                    <li><a href="#news">НОВОСТИ</a></li>
+                    <li><a href="#about">О НАС</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
+                </ul>
+                <div class="nav-images">
+                    <img src="pictures/bar.png" alt="бар">
+                    <img src="pictures/nav.sushi.png" alt="ночная подача">
+                    <img src="pictures/sacura.png" alt="Задний двор ресторана">
+                    <img src="pictures/ugol.png" alt="Третий зал">
+                    <img src="pictures/zal.png" alt="Первый зал">
+                    <img src="pictures/zal.tem.png" alt="Второй зал">
+                </div>
+            </nav>
+            <button class="burger-btn">☰</button>
+        </header>
+
+        <div class="hero">
+            <video class="hero-video" autoplay muted loop>
+                <source src="videos/sakura.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1>САКУРА. ДОМ САМУРАЯ</h1>
+                <p>Гастрономический кластер<br> в центре Москвы</p>
+                <div class="buttons-container">
+                    <button class="book-btn">забронировать стол</button>
+                    <button class="cancel-btn">Отмена брони</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-section" id="menu">
+            <h2>Популярное в Сакуре</h2>
+            <div class="interactive-menu">
+                <div class="menu-list">
+                    <div class="menu-row" data-img="pictures/filad.webp">
+                        <div class="ru-name">Суши</div>
+                        <div class="jp-name">寿司</div>
+                    </div>
+                    <div class="menu-row" data-img="pictures/ramen.jpg">
+                        <div class="ru-name">Рамен</div>
+                        <div class="jp-name">拉麺</div>
+                    </div>
+                    <div class="menu-row" data-img="pictures/sashimi.png">
+                        <div class="ru-name">Сашими</div>
+                        <div class="jp-name">刺身</div>
+                    </div>
+                    <div class="menu-row" data-img="pictures/gedza.webp">
+                        <div class="ru-name">Гёдза</div>
+                        <div class="jp-name">餃子</div>
+                    </div>
+                    <div class="menu-row" data-img="pictures/udon.jpg">
+                        <div class="ru-name">Удон</div>
+                        <div class="jp-name">飩</div>
+                    </div>
+                    <div class="menu-row" data-img="pictures/tempura.webp">
+                        <div class="ru-name">Темпура</div>
+                        <div class="jp-name">天ぷら</div>
+                    </div>
+                </div>
+                <div class="menu-preview">
+                    <img src="" alt="Превью" class="preview-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="events-section" id="events">
+            <h2>Мероприятия</h2>
+            <div class="events-grid">
+                <div class="events-card">
+                    <h3>Мастер класс от шеф-повара</h3>
+                    <p>Научим крутить идеальные роллы и готовить настоящий рамен.</p>
+                    <span class="events-date" datetime="2026-10-15">15 октября 2026</span>
+                    <button class="events-btn">Подробнее</button>
+                </div>
+                <div class="events-card">
+                    <h3>Вечер живой японской музыки</h3>
+                    <p>Звуки традиционного сямисена и атмосфера ночного Токио.</p>
+                    <span class="events-date" datetime="2026-10-24">24 октября 2026</span>
+                    <button class="events-btn">Подробнее</button>
+                </div>
+                <div class="events-card">
+                    <h3>Фестиваль осеннего саке</h3>
+                    <p>Дегустация редких сортов саке с эксклюзивными закусками от бара.</p>
+                    <span class="events-date" datetime="2026-11-05">5 ноября 2026</span>
+                    <button class="events-btn">Подробнее</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="news-section" id="news">
+            <h2>Последние новости<br> и события</h2>
+            <div class="news-list">
+                <div class="news-item">
+                    <div class="news-img-wrapper">
+                        <img src="pictures/utka.webp" alt="Рамен с уткой">
+                        <h3>Обновление осеннего меню</h3>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">5 октября 2026</span>
+                        <p>Добавили согревающие блюда: горячий рамен с уткой и темпуру из сезонных овощей.</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-img-wrapper">
+                        <img src="pictures/restoran.png" alt="Ресторан Сакура">
+                        <h3>Сакура в топ-10 Москвы</h3>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">28 сентября 2026</span>
+                        <p>Вошли в список лучших японских ресторанов столицы по версии Restoclub!</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-img-wrapper">
+                        <img src="pictures/sake.jpg" alt="Подача саке">
+                        <h3>Эксклюзивное саке из Киото</h3>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">15 сентября 2026</span>
+                        <p>Привезли редкую партию дзюнмай дайгиндзё. Успей попробовать до конца месяца!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-section" id="about">
+            <h2>🌸Гастрономический кластер<br>в центре Москвы</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>В нашем ресторане мы создаем уютную атмосферу настоящей Японии, чтобы вы могли отдохнуть от городской суеты. Мы готовим по традиционным рецептам и используем только свежие продукты, которые привозим каждую неделю.</p>
+                    <p>Наш шеф-повар прошел стажировку в Токио и привез оттуда секреты приготовления настоящего рамена и суши. Мы верим, что еда — это не просто насыщение, а целое искусство, которое должно радовать все чувства.</p>
+                    <p>Приходите к нам на обед или ужин, и вы почувствуете себя так, будто перенеслись в маленький уютный ресторанчик в Киото. Мы ждем вас!</p>
+                </div>
+                <div class="about-image">
+                    <img src="pictures/zal.png" alt="Главный зал с низкими столиками, подушками и бумажными фонарями.">
+                    <img src="pictures/bar.png" alt="Барная стойка с полками саке и теплым светом.">
+                    <img src="pictures/ugol.png" alt="Уютный уголок со свечой и веточкой сакуры на столике.">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <a href="index.html" class="logo-footer">
+                <div class="logo">Сакура</div>
+            </a>
+            <div class="footer-left">
+                <div class="footer-top">
+                    <ul>
+                        <li><a href="#">О проекте</a></li>
+                        <li><a href="#">Партнерам</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <dl>
+                        <dt>Адрес</dt>
+                        <dd>Карла Либнехта д.22</dd>
+                        <dt>Телефон</dt>
+                        <dd>+7(800)555-35-35</dd>
+                        <dt>Время работы</dt>
+                        <dd>Вс-Чт: 10:00-22:00</dd>
+                        <dd>Сб-Пт: 10:00-23:00</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footer-right">
+                <img src="pictures/footer.png" alt="чб Ресторан">
+            </div>
+        </footer>
+
+        <script src="script.js?v=2"></script>
+    </body>
+</html>
